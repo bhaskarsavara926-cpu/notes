@@ -3,7 +3,7 @@
 -Next, install huggingface_hub package.
 	execute following command.
 	pip install -U "huggingface_hub[cli]" or pip install huggingface_hub
-
+	
 -And next, download target model.
 	hf download Tongyi-MAI/Z-Image-Turbo --local-dir ./Z-Image-Turbo
 	here 'Tongyi-MAI/Z-Image-Turbo' is the name of model, './Z-Image-Turbo' is local save path.
@@ -11,6 +11,8 @@
 -If login is required, login into huggingface.co and create access token.
 	next execute 'huggingface-cli login', and next input token.
 
+-Other way
+	Git LFS 	 git clone https://huggingface.co/Tongyi-MAI/Z-Image-Turbo 31GB
 ------------------------------------------------------------------------------------
 There is model names as following.
 
