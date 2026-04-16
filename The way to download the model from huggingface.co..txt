@@ -1,0 +1,117 @@
+-Firstly install anaconda or  python.
+
+-Next, install huggingface_hub package.
+	execute following command.
+	pip install -U "huggingface_hub[cli]" or pip install huggingface_hub
+
+-And next, download target model.
+	hf download Tongyi-MAI/Z-Image-Turbo --local-dir ./Z-Image-Turbo
+	here 'Tongyi-MAI/Z-Image-Turbo' is the name of model, './Z-Image-Turbo' is local save path.
+
+-If login is required, login into huggingface.co and create access token.
+	next execute 'huggingface-cli login', and next input token.
+
+------------------------------------------------------------------------------------
+There is model names as following.
+
+-Text-to-Image model name
+	black-forest-labs/FLUX.1-dev
+	black-forest-labs/FLUX.1-schnell
+	black-forest-labs/FLUX.1-Fill-dev
+	black-forest-labs/FLUX.1-Canny-dev
+	black-forest-labs/FLUX.1-Depth-dev
+	black-forest-labs/FLUX.1-Canny-dev-lora
+	black-forest-labs/FLUX.1-Redux-dev
+	black-forest-labs/FLUX.1-Kontext-dev
+	black-forest-labs/FLUX.1-Krea-dev
+
+	amused/amused-256
+	amused/amused-512
+
+	nota-ai/bk-sdm-base
+	nota-ai/bk-sdm-small
+	nota-ai/bk-sdm-tiny	
+	nota-ai/bk-sdm-v2-base
+	nota-ai/bk-sdm-v2-small
+	nota-ai/bk-sdm-v2-tiny
+
+	h94/IP-Adapter-FaceID
+
+	stabilityai/stable-diffusion-xl-base-1.0
+	stabilityai/stable-diffusion-3.5-large
+	stabilityai/stable-diffusion-3-medium
+	stable-diffusion-v1-5/stable-diffusion-v1-5
+	hakurei/waifu-diffusion
+
+	Tongyi-MAI/Z-Image-Turbo
+	Tongyi-MAI/Z-Image
+	
+	Qwen/Qwen-Image
+
+	tencent/HunyuanImage-3.0
+
+-Image-to-Image model name
+	black-forest-labs/FLUX.2-klein-4B
+	black-forest-labs/FLUX.2-klein-9B
+	black-forest-labs/FLUX.2-klein-9b-kv
+
+	fal/Qwen-Image-Edit-2511-Multiple-Angles-LoRA
+	Qwen/Qwen-Image-Edit-2511
+	Qwen/Qwen-Image-Layered
+
+-Image-to-Text
+	zai-org/GLM-OCR
+	mlx-community/GLM-OCR-bf16
+	mradermacher/GLM-OCR-GGUF
+	
+	PaddlePaddle/PaddleOCR-VL-1.5
+	PaddlePaddle/PaddleOCR-VL
+	PaddlePaddle/PaddleOCR-VL-1.5-GGUF
+
+-Image-to-Video
+	tencent/HunyuanVideo-I2V
+	Wan-AI/Wan2.2-I2V-A14B
+	lightx2v/Wan2.2-Distill-Loras
+	hdtrnk/Wan2.1_Phantom_FusioniX
+
+-Text-to-Video
+	tencent/HunyuanVideo
+	tencent/HunyuanVideo-1.5
+
+	Wan-AI/Wan2.1-T2V-14B
+	Wan-AI/Wan2.2-T2V-A14B
+	Wan-AI/Wan2.2-TI2V-5B
+
+	lightx2v/Wan2.2-Lightning
+
+	calcuis/wan2-gguf
+
+-Image-Text-to-Video
+	Skywork/Matrix-Game-3.0
+	
+	3ndetz/LTX2-Rapid-Merges-GGUF
+
+-Text-to-Speech
+	hexgrad/Kokoro-82M
+	nari-labs/Dia-1.6B	
+	microsoft/VibeVoice-1.5B
+	sesame/csm-1b
+	coqui/XTTS-v2
+
+-Text-to-Audio
+	ACE-Step/ACE-Step-v1-3.5B
+	ACE-Step/Ace-Step1.5
+	riffusion/riffusion-model-v1
+	facebook/musicgen-large
+	facebook/musicgen-small
+
+-Video-Text-to-Text
+	lmms-lab/LLaVA-Video-7B-Qwen2
+
+-Text-Generation
+	deepseek-ai/DeepSeek-R1
+	deepseek-ai/DeepSeek-V3
+	deepseek-ai/DeepSeek-V3.2
+	deepseek-ai/DeepSeek-R1-0528-Qwen3-8B
+
+	openai/gpt-oss-120b
